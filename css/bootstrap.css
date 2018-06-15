@@ -1265,7 +1265,9 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+	font-size: 36px;
+	text-decoration: none;
+	color: #000000;
 }
 h2,
 .h2 {
@@ -6766,6 +6768,7 @@ button.close {
 	float: right;
 	margin-left: 587px;
 	text-align: left;
+	color: #000000;
 }
 
 .social {
@@ -6795,6 +6798,7 @@ div {
 
 .getInTouch {
 	text-align: center;
+	color: #FFFFFF;
 }
 .nav a:hover {
 	background-color: #EEEEEE;
