@@ -6771,8 +6771,12 @@ button.close {
 	color: #000000;
 }
 
-.social {
-	list-style-type: none;	
+.social a {
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin: 
+; 					margin-right: 27px;
 }
 
 
