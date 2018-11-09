@@ -1114,7 +1114,7 @@ figure {
   margin: 0;
 }
 img {
-  text-align: center;
+  vertical-align: middle;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1265,9 +1265,7 @@ h6 .small,
 }
 h1,
 .h1 {
-	font-size: 36px;
-	text-decoration: none;
-	color: #000000;
+  font-size: 36px;
 }
 h2,
 .h2 {
@@ -1287,7 +1285,7 @@ h5,
 }
 h6,
 .h6 {
-	font-size: 17px;
+  font-size: 12px;
 }
 p {
   margin: 0 0 10px;
@@ -1319,8 +1317,7 @@ mark,
   text-align: right;
 }
 .text-center {
-	text-align: center;
-	
+  text-align: center;
 }
 .text-justify {
   text-align: justify;
@@ -2125,8 +2122,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
-	width: 33.33333333%;
-	padding-left: 0px;
+    width: 33.33333333%;
   }
   .col-lg-3 {
     width: 25%;
@@ -5010,21 +5006,21 @@ a.badge:focus {
   }
 }
 .thumbnail {
-	display: block;
-	padding: 4px;
-	margin-bottom: 20px;
-	line-height: 1.42857143;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	-webkit-transition: border .2s ease-in-out;
-	-o-transition: border .2s ease-in-out;
-	transition: border .2s ease-in-out;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
 }
 .thumbnail > img,
 .thumbnail a > img {
-	margin-right: auto;
-	margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
@@ -5032,11 +5028,8 @@ a.thumbnail.active {
   border-color: #337ab7;
 }
 .thumbnail .caption {
-	padding: 9px;
-	color: #333;
-	float: right;
-	margin-left: 45px;
-	
+  padding: 9px;
+  color: #333;
 }
 .alert {
   padding: 15px;
@@ -6262,17 +6255,6 @@ button.close {
   -webkit-transition: .6s ease-in-out left;
        -o-transition: .6s ease-in-out left;
           transition: .6s ease-in-out left;
-	overflow: hidden;
-	background-image: url(../images/create.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
-}
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -6784,15 +6766,10 @@ button.close {
 	float: right;
 	margin-left: 587px;
 	text-align: left;
-	color: #000000;
 }
 
-.social a {
-	list-style-type: none;
-	display: block;
-	float: left;
-	margin: 
-; 					margin-right: 27px;
+.social {
+	list-style-type: none;	
 }
 
 
@@ -6818,7 +6795,6 @@ div {
 
 .getInTouch {
 	text-align: center;
-	color: #FFFFFF;
 }
 .nav a:hover {
 	background-color: #EEEEEE;
@@ -6831,13 +6807,4 @@ div {
 	margin-top: 78px;
 	margin-left: 33px;
 	
-}
-
-#visual {
-	margin-right: 91px;	
-
-}
-
-#logo {
-	margin-top: 47px;
 }
